@@ -99,3 +99,6 @@ C:\Users\Dell\source\repos\FacebookPage\FacebookPage\obj\x64\Debug\netcoreapp3.1
 C:\Users\Dell\source\repos\FacebookPage\FacebookPage\obj\x64\Debug\netcoreapp3.1\FacebookPage.pdb
 C:\Users\Dell\source\repos\FacebookPage\FacebookPage\obj\x64\Debug\netcoreapp3.1\FacebookPage.genruntimeconfig.cache
 C:\Users\Dell\source\repos\FacebookPage\FacebookPage\obj\x64\Debug\netcoreapp3.1\FacebookPage.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\FacebookPage\FacebookPage\bin\x64\Debug\netcoreapp3.1\Interop.AutoItX3Lib.dll
+C:\Users\Dell\source\repos\FacebookPage\FacebookPage\obj\x64\Debug\netcoreapp3.1\Interop.AutoItX3Lib.dll
+C:\Users\Dell\source\repos\FacebookPage\FacebookPage\obj\x64\Debug\netcoreapp3.1\FacebookPage.csproj.ResolveComReference.cache

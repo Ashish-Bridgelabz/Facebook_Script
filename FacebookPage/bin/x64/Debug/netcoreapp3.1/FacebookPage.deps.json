@@ -14,7 +14,8 @@
           "NUnit3TestAdapter": "3.16.1",
           "Selenium.Support": "3.141.0",
           "Selenium.WebDriver": "3.141.0",
-          "Selenium.WebDriver.ChromeDriver": "83.0.4103.3900"
+          "Selenium.WebDriver.ChromeDriver": "83.0.4103.3900",
+          "Interop.AutoItX3Lib": "1.0.0.0"
         },
         "runtime": {
           "FacebookPage.dll": {}
@@ -873,6 +874,14 @@
             "fileVersion": "4.6.24705.1"
           }
         }
+      },
+      "Interop.AutoItX3Lib/1.0.0.0": {
+        "runtime": {
+          "Interop.AutoItX3Lib.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1350,6 +1359,11 @@
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "Interop.AutoItX3Lib/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

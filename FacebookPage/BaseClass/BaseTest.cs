@@ -28,23 +28,23 @@ namespace FacebookPage.FacebookLoginData
         {
             FacebookLoginData data = new FacebookLoginData(driver);
             data.DisplayHomePage();
-
-           // Assert.AreEqual(data.actualTitle, "Facebook - log in or sign up");
         }
 
-       /* [Test]
+        [Test]
         public void Update()
         {
             ArticlePost post = new ArticlePost(driver);
             post.DisplayTOArticlePost();
         }
-       */
-         [OneTimeTearDown]
+       
+        [OneTimeTearDown]
         public void Close()
         {
             Thread.Sleep(50000);
             driver.Quit();
         }
+
+        
 
         
     }

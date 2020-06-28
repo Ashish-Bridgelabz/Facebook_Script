@@ -19,21 +19,23 @@ namespace FacebookPage.FacebookLoginData
         }
         //IDENTIFY THE PARICULAR ELEMENTS//
         [FindsBy(How = How.XPath, Using = "//*[@id='email']")]
-        public IWebElement EmailTextArea { get; set; }
+        public IWebElement EmailTextArea;
 
         [FindsBy(How = How.XPath, Using = "//*[@id='pass']")]
-        public IWebElement UserPassArea { get; set; }
+        public IWebElement UserPassArea;
 
         [FindsBy(How = How.XPath, Using = "//*[@id='loginbutton']")]
-        public IWebElement LoginBtn { get; set; }
+        public IWebElement LoginBtn;
 
+        
         public void DisplayHomePage()
         {
             Thread.Sleep(3000);
            
             EmailTextArea.SendKeys("aryankumar01@live.com");
-            UserPassArea.SendKeys("Asish@.");
+            UserPassArea.SendKeys("Ashish@123...123");
             LoginBtn.Click();
+           
             actualTitle = driver.Title;
 
 
